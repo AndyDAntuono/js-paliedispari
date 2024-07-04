@@ -10,19 +10,29 @@ console.log(userNumber)
 let computerNumber = Math.floor(Math.random() * 5) + 1; 
 console.log(computerNumber)
 
-/*
+
 let somma = userNumber + computerNumber;
 console.log(somma)
-*/
-
-//imposto una funzione che mi pemette di addzionare il numero inserito dall'utente con quello randomico del computer
 
 
-function controllo_somma() {
+
+
+
+function controllo_somma(result) {
     
     let somma = userNumber + computerNumber;
     console.log(somma)
 
+    let total = userNumber + somma;
+    console.log(total)
+
+    if (total % 2 === 0) {
+        result = "Il giocatore vince!"
+        console.log(result);
+    }
+    else (result = "Il giocatore perde")  
+
+/*
     if (somma = userNumber % 2 === 0) {
         result = "Il giocatore vince!"
         console.log(result);
@@ -34,5 +44,6 @@ function controllo_somma() {
     }
 
     else ("Il giocatore perde")
-
+    */
+   console.log(value)
 }
