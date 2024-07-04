@@ -3,7 +3,7 @@ function contollo_palindromo(parola) {
 
     const palindromo = parola.split("").reverse().join("");
 
-    if (parola === contollo_palindromo) {
+    if (parola === palindromo) {
         console.log("la stringa è palindroma")
     }
     else {
